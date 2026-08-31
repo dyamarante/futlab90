@@ -6,21 +6,25 @@ Projeto hobby e independente para explorar jogadores de futebol por estatística
 
 ## Site
 
-A página inicial funciona como um pequeno catálogo de atletas. Cada jogador possui sua própria área de análise.
+A página inicial funciona como um catálogo de atletas. Cada jogador possui sua própria área de análise.
 
 ### Estudo 01 — Lorran
 
-Monitoramento Estatístico Pós-Copa 2026, com:
+Monitoramento Estatístico Pós-Copa 2026, com recorte de 216 minutos, gols, assistências, G+A, comparações por tempo, valências, mercado, formação e fontes.
 
-- recorte observado de 216 minutos;
-- gols, assistências e G+A normalizados pelo tempo;
-- comparação com o elenco do Flamengo;
-- comparação com referências globais da mesma idade (20 anos);
-- comparação com Anthony Valencia e Joaquín Freitas;
-- valências ofensivas e defensivas públicas;
-- valor de mercado e fontes;
-- modelo estimativo de custo de formação;
-- rastreabilidade das fontes utilizadas.
+### Estudo 02 — Daniel Thuram
+
+Estudo do zagueiro de 17 anos com foco em **visão de jogo, construção e saída de bola**:
+
+- recorte profissional pós-Copa: 13 minutos contra o Lausanne;
+- separação rigorosa entre dado publicado e dado não disponível;
+- passes certos, passes verticais, quebras de linha e progressivos marcados como `N/D` quando não há tracking individual verificável do amistoso;
+- amostras complementares do Sub-20 e Sub-17;
+- evidências publicadas sobre leitura de jogo e saída de bola;
+- referências de construção de Léo Pereira, Vitão e Léo Ortiz;
+- checklist de métricas a acompanhar nas próximas aparições;
+- material audiovisual público para scouting;
+- fontes clicáveis e metodologia.
 
 ## Estrutura
 
@@ -31,17 +35,15 @@ futlab90/
 ├── vercel.json                 # Configuração de publicação
 ├── assets/
 │   ├── futlab90-logo.svg
-│   └── futlab90-mark.svg
+│   ├── futlab90-mark.svg
+│   ├── lorran.svg
+│   └── daniel-thuram.svg
 └── jogadores/
-    └── lorran/
+    ├── lorran/
+    │   └── ...
+    └── daniel-thuram/
         ├── index.html
-        ├── fragment-1.html
-        ├── fragment-2.html
-        ├── fragment-3.html
-        ├── fragment-4.html
-        ├── style-1.css
-        ├── style-2.css
-        ├── style-3.css
+        ├── style.css
         └── app.js
 ```
 
