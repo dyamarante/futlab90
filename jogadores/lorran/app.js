@@ -1,7 +1,7 @@
 const W=216;
-const LORRAN_IMG='https://images.fotmob.com/image_resources/playerimages/1435445.png';
-const ANTHONY_IMG='https://images.fotmob.com/image_resources/playerimages/1353364.png';
-const JOAQUIN_IMG='https://images.fotmob.com/image_resources/playerimages/1847899.png';
+const LORRAN_IMG='/assets/lorran.svg';
+const ANTHONY_IMG='/assets/anthony.svg';
+const JOAQUIN_IMG='/assets/joaquin.svg';
 const fmt=(n,d=2)=>n.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
 const local=n=>`assets/${n}.png`;
 const remote=id=>`https://images.fotmob.com/image_resources/playerimages/${id}.png`;
