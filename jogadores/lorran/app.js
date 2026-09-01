@@ -1,7 +1,7 @@
 const W=216;
-const LORRAN_IMG='/assets/lorran.svg';
+const LORRAN_IMG='/assets/lorran.png';
 const ANTHONY_IMG='/assets/anthony.svg';
-const JOAQUIN_IMG='/assets/joaquin.svg';
+const JOAQUIN_IMG='/assets/joaquin.png';
 const fmt=(n,d=2)=>n.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
 const local=n=>`assets/${n}.png`;
 const remote=id=>`https://images.fotmob.com/image_resources/playerimages/${id}.png`;

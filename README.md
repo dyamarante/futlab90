@@ -36,8 +36,10 @@ futlab90/
 ├── assets/
 │   ├── futlab90-logo.svg
 │   ├── futlab90-mark.svg
-│   ├── lorran.svg
-│   └── daniel-thuram.svg
+│   ├── lorran.png
+│   ├── joaquin.png
+│   ├── daniel-thuram.webp
+│   └── daniel-thuram.svg      # Fallback local
 └── jogadores/
     ├── lorran/
     │   └── ...
